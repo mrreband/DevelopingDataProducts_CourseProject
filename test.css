@@ -1,0 +1,24 @@
+.well {
+  background-color: #ffffff;
+}
+
+.radio {
+  color: black;
+  font-size: 12px;
+}
+
+:checked {
+  color: red;
+}
+
+head {
+    background-image: url("headerBackground.jpg");
+    background-color: #ffffff;
+}
+
+
+body {
+    background-image: url("musicsheet.jpg");
+    background-color: #ffffff;
+}
+

@@ -1,11 +1,12 @@
 library(shiny)
 
 shinyUI(fluidPage(
+    includeCSS("test.css"),
     titlePanel("Developing Data Products - Course Project"),
     hr(),
     sidebarLayout(
         sidebarPanel(
-            radioButtons("note1", label = h4("Choose A Note"),
+            radioButtons("note1", label = h4("Select A Note"),
                 choices = list("A''" = 61,
                                "G#'" = 60,
                                "G'" = 59,
@@ -20,7 +21,7 @@ shinyUI(fluidPage(
                                "A#'" = 50,
                                "A'" = 49)
                 ,selected = 49)
-            ,width=3),
+            ,width=2),
 
         mainPanel(
             h4("Frequency: "),
