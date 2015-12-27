@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Course Project</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Course Project">
+  <meta name="author" content="Michael Reband">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Course Project</h1>
+    <h2>Developing Data Products | Coursera Data Science</h2>
+    <p>Michael Reband<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Musical Key Frequency Basic Demonstration</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The following is a brief visual demonstration of the mathematical frequencies of keys on a piano.  </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Background</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>In most western cultures, pianos are tuned by dividing octaved into <a href="https://en.wikipedia.org/wiki/Equal_temperament#Twelve-tone_equal_temperament">twelve</a> equal <a href="https://en.wikipedia.org/wiki/Semitone">semitones</a>.</p>  
+
+<p>Traditionally, the 5th A key is tuned to 440Hz (cycles per second): </p>
+
+<p><img src="A4.png"/ alt="A4.png"></p>
+
+<p>This key has a scientific name of <b>A4</b> (as the first A is named A0).</p>
+
+<h2>Formula</h2>
+
+<p>A4 is the 49th key on the piano and is traditionally used as a baseline for determining the frequency of any key, using the following formula: </p>
+
+<p><img src="https://upload.wikimedia.org/math/2/c/3/2c374d4629436af14b00572b9996ce98.png" alt="f(n) = (\sqrt[12]{2}\,)^{n-49} \times 440 \,\text{Hz}\,"/></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Usage</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This simple educational application has just one input - a radio button list in the sidebar.  Selecting a note will cause the following to occur: </p>
+
+<ol>
+<li>Update the image output showing which key on the piano is represented</li>
+<li>Update the text output to display the value of the frequency in <a href="https://en.wikipedia.org/wiki/Hertz">Hertz</a> of the selected note</li>
+<li>Update the plot output to display the corresponding sine wave</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Future State</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This tool can be extended in the future to accommodate the following: </p>
+
+<ol>
+<li>Play tones matching the selected frequency</li>
+<li>Use javascript to replace the existing radio buttons with a custom a piano image input object</li>
+<li>Allow the user to select multiple notes, and demonstrate the interval-relationships between the selected notes</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Musical Key Frequency Basic Demonstration'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Background'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Usage'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Future State'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
